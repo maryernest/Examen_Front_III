@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(../../src/img/cerebro-notas-musicales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+#formu{
+    background-color: #5D6D7E; 
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0);
+    border-radius: 30px;
+    padding: 10px;
+    height: 350px;
+    width: 330px;
+    margin-top: 160px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+div.imagen{    
+    position: absolute;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: 10px 15px 15px 0px rgba(0,0,0) ;
+    margin-left: 5px ;
+    padding: 5px;
+    position: relative;
+    top: 0px;
+    width: 200px;
+    height: 130px;
+
+    
+    
+       
+}
+#ingresa{
+    background-color: #ECF0F1;
+    color: #000000;
+    font-size: 16px;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0);
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #4E6E81;
+    height: 35px;
+    width: 80%;
+}
+
+.mensaje{
+    position: absolute;
+    left: 480px;
+    top: 350px;
+    background-color: yellow;
+    color: blue;
+    border-radius: 10px;
+    padding-top: 15px;
+    width: 20em;
+    height: 10vh;
+    box-shadow: 0px 20px 20px 20px rgba(0,0,0) ;
+    text-align: center ;
+    font-weight: bold;
+    
+}
